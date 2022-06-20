@@ -18,6 +18,26 @@ header{
   background-attachment: fixed;
   height: 600px;
 }
+
+.menu{
+
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color:#3d4042;
+	margin: 5px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.menu i{
+	color:#c8c8c8;
+	font-size: 30px;
+	cursor: pointer;
+	border: 2px solid #c8c8c8;
+	padding: 10px;
+	border-radius: 4px 4px 4px 4px;
+}
+
 .fasoli{
 	font-size: 80px;
 	font-weight: 500;
