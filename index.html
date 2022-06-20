@@ -9,7 +9,7 @@
   <script defer src="js/js.js"></script>
 </head>
 <body>
-	<header>
+	<header id="inicio">
 		<h2 class="fasoli">Alejandro Fasoli</h2>
 		<h2 class="analista">LICENCIADO EN RECURSOS HUMANOS</h2>
 		<div class="fotopersonal">
@@ -20,25 +20,25 @@
 				<i class="fa-solid fa-bars"></i>
 			</div>
 				<ul>
-					<li>Inicio</li>
-					<li>Sobre mi</li>
-					<li>Educación</li>
-					<li>Idiomas</li>
-					<li>Experiencia Laboral</li>
-					<li>Pasatiempos</li>
-					<li>Contacto</li>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#sobremi">Sobre mi</a></li>
+					<li><a href="#educacion">Educación</a></li>
+					<li><a href="#idiomas">Idiomas</a></li>
+					<li><a href="#exp">Experiencia Laboral</a></li>
+					<li><a href="#pasatiempos">Pasatiempos</a></li>
+					<li><a href="#contacto">Contacto</a></li>
 				</ul>
 		</nav>
 	</header>
 	<main>
 		<section class="section1">
-			<div class="sobremi">
+			<div class="sobremi" id="sobremi">
 				<h3><i class="fa-solid fa-user"></i>SOBRE MI</h3>
 				<p>Responsable, proactivo y de actitud positiva. Me gusta capacitarme en lo que hago. Dispuesto a trabajar bajo presión, con capacidad de liderazgo. <br>Cuento con años de experiencia, los cuales son importantes a la hora de desempeñarme profesionalmente.</p>
 			</div>
 		</section>
 		<section class="section2">
-			<div class="formacion">
+			<div class="formacion" id="educacion">
 				<h3><i class="fa-solid fa-graduation-cap"></i>FORMACIÓN ACADÉMICA</h3>
 				<div class="listaformacion">
 					<div class="carta">
@@ -61,7 +61,7 @@
 			</div>
 		</section>
 		<section class="section2bis">
-			<div class="formacion">
+			<div class="formacion" id="idiomas">
 				<h3><i class="fa-solid fa-comments"></i>IDIOMAS</h3>
 				<div class="listaformacion">
 					<div class="idiomas">
@@ -88,7 +88,7 @@
 			<p>"En la busqueda de hallar una actividad en marketing/ventas que me permita continuar evolucionando en lo profesional/laboral desarrollando mi máximo potencial"</p>
 		</section>
 		<section class="section3">
-			<div class="experiencialaboral">
+			<div class="experiencialaboral" id="exp">
 				<h3 class="experiencia"><i class="fa-solid fa-briefcase"></i>EXPERIENCIA LABORAL</h3>
 			</div>
 		</section>
@@ -170,7 +170,7 @@
 		</section>
 		
 		<section class="section4">
-			<div class="sobremi">
+			<div class="sobremi" id="pasatiempos">
 				<h3><i class="fa-solid fa-hourglass-end"></i>PASATIEMPOS / INTERESES</h3>
 				<div class="pasatiempos">
 					<div><h5><i class="fa-solid fa-tennis-ball"></i>Tenis</h5></div>
@@ -181,7 +181,7 @@
 				</div>
 			</div>
 		</section>
-		<footer>
+		<footer id="contacto">
 			<h4>Contacto</h4>
 			<div class="contacto">
 				<div><p><i class="fa-solid fa-phone"></i>(011) 3107387</p></div>
@@ -191,4 +191,5 @@
 		</footer>	
 </main>
 </body>
+<script src="js/jquery-1.11.3.min.js"></script>
 </html>

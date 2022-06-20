@@ -4,7 +4,9 @@
 
 
 :root {
-	--grisoscuro: #3d4042;
+	--grisoscuro: #2a2b2c;
+	--azuloceano: #df3143;
+	--grisclaro: #2a2b2c;
 }
   
 *{
@@ -47,15 +49,31 @@ header{
 	right: 200px;
 	background-color: var(--grisoscuro);
 	border-radius: 4px 0px 0px 4px;
+	transition: .2s ease all;
 }
 
+.menu i:hover{
 
+	color:#df3143;
+	transition: .2s ease all;
+}
 
 .menu ul li{
 	text-align: center;
 	list-style-type: none;
 	border-bottom: 1px solid white;
 	padding: 15px 10px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color:#c8c8c8;
+	transition: .2s ease all;
+}
+
+.menu ul li a:hover{
+	text-decoration: none;
+	color:#df3143;
 }
 
 .active{
@@ -106,7 +124,7 @@ header img{
 	padding: 20px 0 20px 0;
 	font-size: 28px;
 	font-weight: 600;
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid var(--azuloceano);
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
 	color: var(--grisoscuro);
@@ -135,7 +153,7 @@ header img{
 .formacion h3{
 	padding: 20px 0 20px 0;
 	font-size: 28px;
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid var(--azuloceano);
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
 	color: var(--grisoscuro);
@@ -172,19 +190,19 @@ header img{
 .esp .espin{
 	width: 230px;
 	height: 10px;
-	background-color: red;
+	background-color: var(--azuloceano);
 }
 
 .por .porin{
 	width: 100px;
 	height: 10px;
-	background-color: red;
+	background-color: var(--azuloceano);
 }
 
 .fr .frin{
 	width: 50px;
 	height: 10px;
-	background-color: red;
+	background-color: var(--azuloceano);
 }
 
 .section3{
@@ -210,7 +228,7 @@ header img{
 	padding: 30px 0 20px 0;
 	font-size: 28px;
 	font-weight: 300;
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid var(--azuloceano);
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
 }
@@ -233,7 +251,7 @@ header img{
 	font-size: 28px;
 	font-family: 'Montserrat', sans-serif;
 	color: var(--grisoscuro);
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid var(--azuloceano);
 	padding: 20px 0 20px 0;
 	letter-spacing: 2px;
 }
@@ -281,7 +299,7 @@ header img{
 	position: absolute;
 	width: 2px;
 	height: 100%;
-	background-color: red;
+	background-color: var(--azuloceano);
 	left: calc(50% - 1px);
 }
 .timeline-item{
@@ -302,7 +320,7 @@ header img{
 .timeline-dot{
 	height: 16px;
 	width: 16px;
-	background-color: red;
+	background-color: var(--azuloceano);
 	position: absolute;
 	left: calc(50% - 8px);
 	border-radius: 50%;
@@ -310,12 +328,12 @@ header img{
 }
 .timeline-date{
 	font-size: 18px;
-	color: red;
+	color: var(--azuloceano);
 	margin:6px 0 15px;
 }
 .timeline-content{
     /*background-color: #2f363e;*/
-	background-color: var(--grisoscuro);
+	background-color: var(--grisclaro);
 	padding: 30px;
 	border-radius: 5px;
 }
