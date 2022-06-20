@@ -193,9 +193,7 @@ header img{
 }
 
 .section4{
-
 	margin-top: 100px;
-
 }
 
 .pasatiempos{
@@ -207,11 +205,8 @@ header img{
 }
 
 .pasatiempos i{
-
 	margin-right: 5px;
-
 }
-
 
 /*.activo{
 	display: none;
@@ -277,7 +272,7 @@ header img{
     font-size: 20px;
 	color: #ffffff;
 	margin:0 0 10px;
-	text-transform: capitalize;
+	/*text-transform: capitalize;*/
 	font-weight: 500;
 }
 .timeline-content p{
@@ -286,6 +281,41 @@ header img{
 	font-weight: 300;
 	line-height: 22px;
 }
+
+.pasatiempos h5{
+	font-size: 16px;
+	font-weight: 400;
+}
+
+footer{
+	background-color: #3d4042;
+	color: #c8c8c8;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer h4{
+	padding: 20px;
+}
+
+.contacto{
+
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+footer p{
+	padding: 10px;
+	font-size: 16px;
+}
+.contacto i{
+	margin-right: 10px;
+}
+
 
 /* responsive */
 @media(max-width: 767px){
