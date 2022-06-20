@@ -1,13 +1,8 @@
-const acordeon = document.querySelector(".timeline-section");
-const button = document.querySelector(".experiencia");
-const activo = document.querySelector(".activo");
+const activo = document.querySelector(".navbtn");
+const menuBtn = document.querySelector(".menu");
 
-button.addEventListener("click", () => {
-    acordeon.classList.toggle("activo");
+activo.addEventListener("click", () => {
+    menuBtn.classList.toggle("active");
 });
 
-if (activo.style.display == "block") {
-    activo.style.display = "none";
-} else {
-    activo.style.display == "block";
-};
+
