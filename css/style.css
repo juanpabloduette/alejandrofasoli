@@ -198,6 +198,20 @@ header img{
 
 }
 
+.pasatiempos{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.pasatiempos i{
+
+	margin-right: 5px;
+
+}
+
 
 /*.activo{
 	display: none;
