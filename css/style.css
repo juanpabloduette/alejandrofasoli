@@ -27,6 +27,25 @@ header{
   height: 600px;
 }
 
+.descargar a{
+	text-decoration: none;
+	color:#c8c8c8;
+	padding: 10px 20px;
+	font-weight: 200;
+	position: absolute;
+	top: 0;
+	margin-top: 5px;
+	left: 5px;
+	transition: .2s ease all;
+	border: 1px solid #c8c8c8;
+}
+.descargar a:hover{
+	color:#df3143;
+	border: 1px solid #df3143;
+	background-color: white;
+	transition: .2s ease all;
+}
+
 .menu{
 	color:#c8c8c8;
 	position: fixed;
@@ -36,7 +55,7 @@ header{
 	top: 0;
 	background-color: var(--grisoscuro);
 	margin: 5px 0 0 0;
-	transition: .3s ease all;
+	transition: .2s ease all;
 
 }
 
@@ -69,6 +88,7 @@ header{
 	text-decoration: none;
 	color:#c8c8c8;
 	transition: .2s ease all;
+	font-weight: 200;
 }
 
 .menu ul li a:hover{
@@ -79,7 +99,6 @@ header{
 .active{
 	right: -200px;
 }
-
 
 .fasoli{
 	font-size: 80px;
@@ -205,6 +224,27 @@ header img{
 	background-color: var(--azuloceano);
 }
 
+.sectionhabilidades{
+	margin-top: 130px;
+}
+
+.cajahabilidades{
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+
+	padding-top: 40px;
+}
+
+.cajahabilidades i{
+	margin-right: 5px;
+	
+	color:#df3143;
+	font-size: 30px;
+}
+
+
 .section3{
 	padding-top: 80px;
 }
@@ -224,18 +264,10 @@ header img{
 	margin: auto;
 }
 
-.objetivo h3{
-	padding: 30px 0 20px 0;
-	font-size: 28px;
-	font-weight: 300;
-	border-bottom: 2px solid var(--azuloceano);
-	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 2px;
-}
 .sectionobjetivo p{
 	width: 95%;
 	margin: auto;
-	padding: 70px 0 70px 0;
+	padding: 90px 0 90px 0;
 	font-size: 40px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 100;
@@ -276,10 +308,6 @@ header img{
 .pasatiempos i{
 	margin-right: 5px;
 }
-
-/*.activo{
-	display: none;
-}*/
 
 .timeline-section{
 	background-color: white;
@@ -342,7 +370,7 @@ header img{
 	color: #ffffff;
 	margin:0 0 10px;
 	/*text-transform: capitalize;*/
-	font-weight: 500;
+	font-weight: 400;
 }
 .timeline-content p{
     color: #c8c8c8;
@@ -370,11 +398,8 @@ footer h4{
 }
 
 .contacto{
-
 	display: flex;
 	flex-direction: column;
-	
-
 }
 
 footer p{
@@ -382,8 +407,28 @@ footer p{
 	font-size: 16px;
 }
 .contacto i{
-	margin-right: 10px;
+	
+	color:#df3143;
+	font-size: 28px;
 }
+
+.itemscontacto{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 10px;
+}
+
+.desarrollo p{
+	font-size: 14px;
+	background-color: #df3143;
+	color:#2a2b2c;
+	width: 240px;
+	margin: auto;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
 
 
 /* responsive */
