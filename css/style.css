@@ -80,7 +80,7 @@ header{
 .menu ul li{
 	text-align: center;
 	list-style-type: none;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #474747;
 	padding: 15px 10px;
 }
 
@@ -142,7 +142,7 @@ header img{
 .sobremi h3{
 	padding: 20px 0 20px 0;
 	font-size: 28px;
-	font-weight: 600;
+	font-weight: 500;
 	border-bottom: 2px solid var(--azuloceano);
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
@@ -176,6 +176,7 @@ header img{
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
 	color: var(--grisoscuro);
+	font-weight: 500;
 }
 
 .listaformacion{
@@ -239,11 +240,9 @@ header img{
 
 .cajahabilidades i{
 	margin-right: 5px;
-	
 	color:#df3143;
 	font-size: 30px;
 }
-
 
 .section3{
 	padding-top: 80px;
