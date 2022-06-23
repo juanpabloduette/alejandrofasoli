@@ -51,7 +51,7 @@ header{
 	position: fixed;
 	width: 200px;
 	height: 100%;
-	right: 0;
+	right: -200px;
 	top: 0;
 	background-color: var(--grisoscuro);
 	margin: 5px 0 0 0;
@@ -97,7 +97,7 @@ header{
 }
 
 .active{
-	right: -200px;
+	right: 0px;
 }
 
 .fasoli{
