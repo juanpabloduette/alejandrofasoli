@@ -56,7 +56,7 @@ header{
 	background-color: var(--grisoscuro);
 	margin: 5px 0 0 0;
 	transition: .2s ease all;
-
+	z-index: 100;
 }
 
 .menu i{
@@ -110,7 +110,21 @@ header{
 	line-height: 80%;
 	font-family: 'Heebo', sans-serif;
 	letter-spacing: 1px;
+	animation: 1.5s entradafasoli;
 }
+
+@keyframes entradafasoli{
+	0%{
+		transform: translateX(-170px);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+
 .analista{
 	font-size: 22px;
 	font-family: 'Montserrat', sans-serif;
@@ -121,6 +135,19 @@ header{
 	padding-bottom: 70px;
 	line-height: 80%;
 	letter-spacing: 3px;
+	animation: 3s entradaanalista;
+}
+
+
+@keyframes entradaanalista{
+	0%{
+		transform: translateX(0);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0);
+		opacity: 1;
+	}
 }
 header img{
 	border-radius: 50%;
@@ -286,9 +313,6 @@ header img{
 	padding: 20px 0 20px 0;
 	letter-spacing: 2px;
 }
-.experiencia:hover{
-	cursor: pointer;
-}
 
 .section4{
 	margin-top: 100px;
@@ -305,6 +329,10 @@ header img{
 }
 
 .pasatiempos i{
+	margin-right: 5px;
+}
+.pasatiempos img{
+	width: 20px;
 	margin-right: 5px;
 }
 
