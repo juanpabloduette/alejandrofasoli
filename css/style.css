@@ -124,7 +124,6 @@ header{
 	}
 }
 
-
 .analista{
 	font-size: 22px;
 	font-family: 'Montserrat', sans-serif;
@@ -137,7 +136,6 @@ header{
 	letter-spacing: 3px;
 	animation: 3s entradaanalista;
 }
-
 
 @keyframes entradaanalista{
 	0%{
@@ -177,10 +175,15 @@ header img{
 }
 .sobremi i, .formacion i, .experiencialaboral i, .objetivo i{
 	padding-right: 10px;
+	color: var(--azuloceano);
+	font-size: 30px;
+
 }
 .sobremi p{
 	padding: 40px 0 20px 0;
 	color: var(--grisoscuro);
+	font-size: 18px;
+	font-weight: 400;
 }
 
 .section2{
@@ -215,16 +218,21 @@ header img{
 
 .carta{
 	padding: 20px 0 20px 0;
+	font-size: 18px;
 }
 
 .idiomas{
 
-	padding: 10px 0 20px 0;
+	padding: 10px 0 30px 0;
 
 }
 
 .idiomas p{
 	padding-bottom: 5px;
+	font-weight: 500;
+	font-size: 18px;
+
+	
 }
 .listaformacion .esp,
 .listaformacion .por,
@@ -252,6 +260,43 @@ header img{
 	background-color: var(--azuloceano);
 }
 
+.porcentaje{
+	display: flex;
+	justify-content: space-between;
+	width: 230px;
+	position: relative;
+}
+.cajita{
+	color: rgb(240, 240, 240);
+	background-color: var(--grisoscuro);
+	margin-bottom: 6px;
+	padding: 0 4px;
+	border-radius: 3px;
+}
+.porcentaje .cajita{
+
+	font-size: 13px;
+	padding-top: 5px;
+	font-weight: 400;
+}
+
+.cajita::before{
+	content: "";
+	background-color: var(--grisoscuro);
+	position: absolute;
+	right: 10px;
+	top: 22px;
+	height: 0;
+	width: 0;
+	border: 10px solid transparent;
+	border-bottom-width: 0px;
+	border-right-width: 0px;
+	border-top-color: var(--grisoscuro);
+	transform: translatex(50%) rotate(315deg);
+	z-index: -1;
+}
+
+
 .sectionhabilidades{
 	margin-top: 130px;
 }
@@ -261,16 +306,30 @@ header img{
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
-
+	align-items:flex-start;
 	padding-top: 40px;
+	flex-direction: column;
+	
+}
+.cajahabilidades h3{
+
+	font-weight: 400;
+
 }
 
 .cajahabilidades i{
-	margin-right: 5px;
+	margin-right: 8px;
 	color:#df3143;
 	font-size: 30px;
 }
 
+.habi{
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
 .section3{
 	padding-top: 80px;
 }
@@ -323,9 +382,8 @@ header img{
 	padding-bottom: 50px;
 	display: flex;
 	justify-content: space-between;
-	font-size: 25px;
-	font-family: 'Montserrat', sans-serif;
 	color: var(--grisoscuro);
+	font-size: 18px;
 }
 
 .pasatiempos i{
@@ -383,24 +441,26 @@ header img{
 }
 .timeline-date{
 	font-size: 18px;
-	color: var(--azuloceano);
+	color: var(--grisoscuro);
 	margin:6px 0 15px;
 }
 .timeline-content{
-    /*background-color: #2f363e;*/
-	background-color: var(--grisclaro);
+    background-color:#eeeeee;
+	/*background-color: var(--grisclaro);*/
 	padding: 30px;
 	border-radius: 5px;
 }
 .timeline-content h3{
     font-size: 20px;
-	color: #ffffff;
+	/*color: #ffffff;*/
+	color:#2a2b2c;
 	margin:0 0 10px;
 	/*text-transform: capitalize;*/
 	font-weight: 400;
 }
 .timeline-content p{
-    color: #c8c8c8;
+    /*color: #c8c8c8;*/
+	color:#2a2b2c;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 22px;
